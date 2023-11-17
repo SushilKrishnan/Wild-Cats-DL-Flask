@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
 from keras.models import load_model
-from keras.preprocessing import image
+from keras.models import load_model
 import numpy as np
 
 app = Flask(__name__)
